@@ -1,0 +1,47 @@
+  GNU nano 8.5                          wg0.conf                                      
+#[Interface]
+#Address = 10.10.0.1
+#ListenPort = 51820
+#PrivateKey = CHAVE PRIVADA AQUI
+#PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -A FORWARD -o %i -j ACCEPT; ip>
+#PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -D FORWARD -o %i -j ACCEPT; >
+
+[Peer]
+# peer1
+#PublicKey = W05YUpIgn7vKUds1ttOIuGeQRU0gp7oZTYZND+yDvAw=
+#PresharedKey = V6UZRBViwv99Umteod7xkY+6uMAxp2FmnDEZeOSmfB4=
+#AllowedIPs = 10.10.0.2/32
+
+[Peer]
+# peer2
+#PublicKey = CHAVE PUBLICA DO CLIENTE
+#PresharedKey = 6uMXzjppSfOS6r8+eBmTe8wX0bERbVNToYnejUNnX2g=
+#AllowedIPs = 10.10.0.3/32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 [ 19 linhas lidas ]
+^G Ajuda      ^O Gravar     ^F Onde está? ^K Recortar   ^T Executar   ^C Local
+^X Sair       ^R Ler o arq  ^\ Substituir ^U Colar	^J Justificar ^/ Ir p/ linha
