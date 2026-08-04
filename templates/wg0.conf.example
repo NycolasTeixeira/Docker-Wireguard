@@ -8,7 +8,7 @@
 
 [Peer]
 # peer1
-#PublicKey = W05YUpIgn7vKUds1ttOIuGeQRU0gp7oZTYZND+yDvAw=
+#PublicKey = CHAVE PUBLICA DO CLIENTE
 #PresharedKey = V6UZRBViwv99Umteod7xkY+6uMAxp2FmnDEZeOSmfB4=
 #AllowedIPs = 10.10.0.2/32
 
